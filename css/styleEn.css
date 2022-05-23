@@ -1,0 +1,47 @@
+body{
+    direction: ltr;
+    text-align: left;
+}
+.secondary-title h4:before {
+    right: unset;
+    left: 0;
+}
+.skew-screen {
+    left: 0;
+    right: unset;
+    transform: rotate(-20deg) translate(-90px, 124px);
+}
+.search-form button {
+    left: unset;
+    right: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.responsive-nav {
+    transform: translateX(-100%);
+    left: 0;
+}
+.tooltip {
+    left: unset;
+    right: 0;
+}
+.tooltip .tooltiptext {
+    right: 110px;
+}
+.help-vid {
+    left: unset;
+    right: 15px;
+}
+.bar2 {
+    transform: rotateZ(-45deg) translate(-23px, -5px);
+}
+.bar4 {
+    transform: rotateZ(45deg) translate(-4px, 23px);
+}
+.profile-link img{
+    transform: rotateY(180deg);
+}
+.edit-icon {
+    left: unset;
+    right: 0;
+}

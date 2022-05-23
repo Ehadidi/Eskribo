@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/input-country.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/css/intlTelInput.css" rel="stylesheet" media="screen">
+    <!--    <link rel="stylesheet" href="css/styleEn.css">-->
+    <title>تسجيل جديد</title>
+</head>
+<body>
+<!--responsive navbar-->
+<div class="nav-layer"></div>
+<div class="responsive-nav d-lg-none d-block">
+    <div class="logo-sidebar">
+        <a href="index.html">
+            <img src="images/Final-Appoved.png">
+        </a>
+    </div>
+    <div class="nav-bar2">
+        <ul>
+            <li class="act"><a href="index.html">الرئيسية</a></li>
+            <li id="abilit1"><a>القدرات</a></li>
+            <li id="complet1"><a>التحصيلي</a></li>
+            <li><a href="about.html">عن الموقع</a></li>
+            <li id="tact1"><a>اتصل بنا</a></li>
+            <li><a class="defult-link" href="about.html">حول الموقع</a></li>
+            <li><a class="defult-link" href="policy.html">سياسة الاستخدام</a></li>
+            <li><a class="defult-link" href="">الشروط و الاحكام</a></li>
+            <li><a class="defult-link" href="">حسابي</a></li>
+            <li><div class="-link mt-0"><a style="font-weight: unset" href="login.html">تسجيل دخول/ جديد</a></div></li>
+            <li>
+                <form style="width: 90%;" class="search-form">
+                    <input style="padding: 7px;" type="text" placeholder="إبحث هنا">
+                    <button><img src="images/search.png"></button>
+                </form>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<section class="header">
+    <div class="container">
+        <div class="top-head">
+            <div class="d-flex align-items-center downapp">
+                <p class="mb-0">حمل التطبيق الان</p>
+                <a href=""><img src="images/android.png"></a>
+                <a href=""><img src="images/apple.png"></a>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-globe ml-1 mr-1"></i>عربي  <i class="fas fa-sort-down ml-2 mr-2"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">English</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middle-head">
+        <div class="container pt-3 pb-3">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo-head">
+                    <a href="index.html">
+                        <img src="images/logo-head.png">
+                    </a>
+                </div>
+                <div class="bars d-lg-none d-block mb-2 ml-3 mr-3" style="z-index: 999;">
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                </div>
+                <form class="search-form d-lg-block d-none">
+                    <input type="text" placeholder="إبحث هنا">
+                    <button><img src="images/search.png"></button>
+                </form>
+                <div class="-link d-lg-block d-none">
+                    <a href="login.html">
+                        تسجيل دخول/ جديد
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container d-lg-block d-none">
+        <div class="nav-bar">
+            <ul>
+                <li class="act"><a href="index.html">الرئيسية</a></li>
+                <li id="abilit"><a>القدرات</a></li>
+                <li id="complet"><a>التحصيلي</a></li>
+                <li><a href="about.html">عن الموقع</a></li>
+                <li id="tact"><a>اتصل بنا</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div class="content">
+    <section class="login mt-5 mb-5 overflow-hidden">
+        <div class="container fadedown1">
+            <h3 class="normal-title"><b>تسجيل جديد</b></h3>
+            <form class="log-form row">
+                <div class="col-md-5 col-sm-6 col-12">
+                    <div class="form_label">
+                        <input style="padding: 15px 25px 0 25px !important;" id="phone" class="input_focus addofferinput" type="tel">
+                        <span id="valid-msg" class="hide">Valid</span>
+                        <span id="error-msg" class="hide">Invalid number</span>
+                        <label style="top: 4px;" class="float_label">رقم الجوال</label>
+                    </div>
+                    <div class="form_label">
+                        <input type="email" class="input_focus addofferinput" required="">
+                        <label class="float_label">البريد الالكتروني</label>
+                    </div>
+                    <div class="form_label">
+                        <input id="password" type="password" class="input_focus addofferinput" required="">
+                        <label class="float_label">كلمة المرور</label>
+                    </div>
+                    <div class="form_label">
+                        <input id="confirm_password" type="password" class="input_focus addofferinput" required="">
+                        <label class="float_label">تأكيد كلمة المرور</label>
+                    </div>
+                    <span id='message'></span>
+                    <div class="login-btn">
+                        <button href="training-feedback.html" class="btn first-btn defult-btn btnEfectBg"><span>تسجيل</span></button>
+                    </div>
+                    <div class="links-div justify-content-center mt-4">
+                        <p>هل لديك حساب؟<a class="login-links" href="login.html">تسجيل دخول</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+
+<footer class="foot-sit mt-5 d-md-block d-none">
+    <div class="container">
+        <div class="d-flex justify-content-between flex-wrap">
+            <div class="footer-logo">
+                <a href="index.html">
+                    <img src="images/logo-footer.png">
+                </a>
+            </div>
+            <div class="footer-links">
+                <h5>روابط سريعه</h5>
+                <ul>
+                    <li><a class="defult-link" href="">الرئيسية</a></li>
+                    <li><a class="defult-link" href="">من نحن</a></li>
+                    <li><a class="defult-link" href="">القدرات</a></li>
+                    <li><a class="defult-link" href="">التحصيلي</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h5>روابط سريعه</h5>
+                <ul>
+                    <li><a class="defult-link" href="about.html">حول الموقع</a></li>
+                    <li><a class="defult-link" href="policy.html">سياسة الاستخدام</a></li>
+                    <li><a class="defult-link" href="">الشروط و الاحكام</a></li>
+                    <li><a class="defult-link" href="">حسابي</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h5>تواصل معنا</h5>
+                <ul class="contact-footer">
+                    <li>الرياض- المملكة العربية السعودية</li>
+                    <li>+968214687466</li>
+                    <li>aait@aait.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="bottom-footer d-md-none d-block mt-5">
+    <div class="container">
+        <div class="contact-info">
+            <ul class="contact-footer d-flex justify-content-between flex-wrap">
+                <li>الرياض- المملكة العربية السعودية</li>
+                <li>+968214687466</li>
+                <li>aait@aait.com</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"></script>
+<script type="text/javascript">  new WOW().init(); </script>
+<script>
+    $('#password, #confirm_password').on('keyup', function () {
+        if ($('#password').val() == $('#confirm_password').val()) {
+            $('#message').html(`<b>Matching</b>`).css('color', 'green').fadeOut(800);
+        } else
+            $('#message').html('Not Matching').css('color', 'red');
+    });
+</script>
+<script>
+    var telInput = $("#phone"),
+        errorMsg = $("#error-msg"),
+        validMsg = $("#valid-msg");
+
+    // initialise plugin
+    telInput.intlTelInput({
+
+        allowExtensions: true,
+        formatOnDisplay: true,
+        autoFormat: true,
+        autoHideDialCode: true,
+        autoPlaceholder: true,
+        defaultCountry: "auto",
+        ipinfoToken: "yolo",
+
+        nationalMode: false,
+        numberType: "MOBILE",
+        //onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+        preferredCountries: ['sa', 'ae', 'qa','om','bh','kw','ma'],
+        preventInvalidNumbers: true,
+        separateDialCode: true,
+        initialCountry: "auto",
+        geoIpLookup: function(callback) {
+            $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                var countryCode = (resp && resp.country) ? resp.country : "";
+                callback(countryCode);
+            });
+        },
+        utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"
+    });
+
+    var reset = function() {
+        telInput.removeClass("error");
+        errorMsg.addClass("hide");
+        validMsg.addClass("hide");
+    };
+
+    // on blur: validate
+    telInput.blur(function() {
+        reset();
+        if ($.trim(telInput.val())) {
+            if (telInput.intlTelInput("isValidNumber")) {
+                validMsg.removeClass("hide");
+            } else {
+                telInput.addClass("error");
+                errorMsg.removeClass("hide");
+            }
+        }
+    });
+
+    // on keyup / change flag: reset
+    telInput.on("keyup change", reset);
+</script>
+</body>
+</html>
+

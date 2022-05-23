@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--    <link rel="stylesheet" href="css/styleEn.css">-->
+    <title> السلة</title>
+    <style>
+        .swal2-styled.swal2-confirm{
+            background-color: #13a29a !important;
+        }
+    </style>
+</head>
+<body>
+<div class="loader">
+    <img src="images/logo-footer.png">
+</div>
+<!--responsive navbar-->
+<div class="nav-layer"></div>
+<div class="responsive-nav d-lg-none d-block">
+    <div class="logo-sidebar">
+        <a href="index.html">
+            <img src="images/Final-Appoved.png">
+        </a>
+    </div>
+    <div class="nav-bar2">
+        <ul>
+            <li class="act"><a href="index.html">الرئيسية</a></li>
+            <li id="abilit1"><a>القدرات</a></li>
+            <li id="complet1"><a>التحصيلي</a></li>
+            <li><a href="about.html">عن الموقع</a></li>
+            <li id="tact1"><a>اتصل بنا</a></li>
+            <li><a class="defult-link" href="about.html">حول الموقع</a></li>
+            <li><a class="defult-link" href="policy.html">سياسة الاستخدام</a></li>
+            <li><a class="defult-link" href="">الشروط و الاحكام</a></li>
+            <li><a class="defult-link" href="">حسابي</a></li>
+            <li><div class="-link mt-0"><a style="font-weight: unset" href="login.html">تسجيل دخول/ جديد</a></div></li>
+            <li>
+                <form style="width: 90%;" class="search-form">
+                    <input style="padding: 7px;" type="text" placeholder="إبحث هنا">
+                    <button><img src="images/search.png"></button>
+                </form>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<section class="header">
+    <div class="container">
+        <div class="top-head">
+            <div class="d-flex align-items-center downapp">
+                <p class="mb-0">حمل التطبيق الان</p>
+                <a href=""><img src="images/android.png"></a>
+                <a href=""><img src="images/apple.png"></a>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-globe ml-1 mr-1"></i>عربي  <i class="fas fa-sort-down ml-2 mr-2"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">English</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middle-head">
+        <div class="container pt-3 pb-3">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo-head">
+                    <a href="index.html">
+                        <img src="images/logo-head.png">
+                    </a>
+                </div>
+                <div class="bars d-lg-none d-block mb-2 ml-3 mr-3" style="z-index: 999;">
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                </div>
+                <form class="search-form d-lg-block d-none">
+                    <input type="text" placeholder="إبحث هنا">
+                    <button><img src="images/search.png"></button>
+                </form>
+                <div class="d-lg-flex align-items-center d-none mt-3 ml-3 mr-3">
+                    <a class="ml-1 mr-1" href="notification.html">
+                        <img style="width: 17px;" src="images/Icon-notification.png">
+                    </a>
+                    <a class="ml-1 mr-1" href="cart.html">
+                        <img style="width: 22px" src="images/icon-cart.png">
+                    </a>
+                    <a class="ml-1 mr-1" href="chat.html">
+                        <img style="width: 20px" src="images/Icon-chat.png">
+                    </a>
+                    <div class="profile-drop">
+                        <div class="profile-sitting" href="">
+                            الملف الشخصي
+                            <img src="images/next.png">
+                        </div>
+                        <div class="profile-menu">
+                            <a class="profile-link" href="profile.html">
+                                <div class="d-flex align-items-center">
+                                    <img style="width: 28px;" src="images/user.png">
+                                    <div class="link-label">
+                                        <p>بيانات حسابي</p>
+                                        <span>معلومات شخصيه</span>
+                                    </div>
+                                </div>
+                                <img src="images/noun_Arrow_2335664.png" alt="">
+                            </a>
+                            <a class="profile-link" href="sertificate.html">
+                                <div class="d-flex align-items-center">
+                                    <img style="width: 28px;" src="images/watha.png">
+                                    <div class="link-label">
+                                        <p>شهاداتي</p>
+                                        <span>متابعة الشهادات الخاصه بك</span>
+                                    </div>
+                                </div>
+                                <img src="images/noun_Arrow_2335664.png" alt="">
+                            </a>
+                            <a class="profile-link" href="questions.html">
+                                <div class="d-flex align-items-center">
+                                    <img style="width: 28px;" src="images/watha-1.png">
+                                    <div class="link-label">
+                                        <p> الاستفسارات</p>
+                                        <span> كل ما يخص المنصه من معلومات</span>
+                                    </div>
+                                </div>
+                                <img src="images/noun_Arrow_2335664.png" alt="">
+                            </a>
+                            <a class="profile-link" href="login.html">
+                                <div class="d-flex align-items-center">
+                                    <img style="width: 28px;" src="images/logout.png">
+                                    <div class="link-label">
+                                        <p>تسجيل الخروج</p>
+                                        <span>يمكنك تسجيل الخروج من حسابك هنا</span>
+                                    </div>
+                                </div>
+                                <img src="images/noun_Arrow_2335664.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container d-lg-block d-none">
+        <div class="nav-bar">
+            <ul>
+                <li class="act"><a href="index.html">الرئيسية</a></li>
+                <li id="abilit"><a>القدرات</a></li>
+                <li id="complet"><a>التحصيلي</a></li>
+                <li><a href="about.html">عن الموقع</a></li>
+                <li id="tact"><a>اتصل بنا</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div class="content mt-5 mb-5">
+    <div class="container fadedown1">
+        <h4 class="normal-title mt-3 mb-5"><b> السلة</b></h4>
+        <div class="row justify-content-center">
+            <div class="col-sm-7 col-12">
+                <h5><b>الطلبات</b></h5>
+                <hr>
+            </div>
+            <div class="col-sm-7 col-12 cart-row">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex">
+                        <img class="book-cover" src="images/Mask.png">
+                        <h6 class="book-name"><b>اسم الكتاب</b></h6>
+                    </div>
+                    <div class="d-flex flex-column align-items-end">
+                        <div class="qty counter-div">
+                            <button class="plus counter-btn unselectable">+</button>
+                            <input type="text" value="0" class="count output" disabled="">
+                            <button class="minus counter-btn unselectable">-</button>
+                        </div>
+                        <button style="background-color: #fff ;border: 0" type="button" data-toggle="modal" data-target="#exampleModalCenter" class="remove-fromCart">حذف X</button>
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="normal-title" id="exampleModalLongTitle">تنبيه</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>متأكد انك تريد حذفه من السله؟</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="modal-confirm defult-link" data-dismiss="modal">تأكيد</button>
+                                        <button type="button" class="modal-dismiss" data-dismiss="modal">الغاء</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="col-sm-7 col-12 cart-row">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex">
+                        <img class="book-cover" src="images/Mask.png">
+                        <h6 class="book-name"><b>اسم الكتاب</b></h6>
+                    </div>
+                    <div class="d-flex flex-column align-items-end">
+                        <div class="qty counter-div">
+                            <button class="plus counter-btn unselectable">+</button>
+                            <input type="text" value="0" class="count output" disabled="">
+                            <button class="minus counter-btn unselectable">-</button>
+                        </div>
+                        <button style="background-color: #fff ;border: 0" type="button" data-toggle="modal" data-target="#exampleModalCenter1" class="remove-fromCart">حذف X</button>
+                        <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="normal-title" id="exampleModalLongTitle1">تنبيه</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>متأكد انك تريد حذفه من السله؟</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="modal-confirm defult-link" data-dismiss="modal">تأكيد</button>
+                                        <button type="button" class="modal-dismiss" data-dismiss="modal">الغاء</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="col-sm-7 col-12">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex flex-column w-100">
+                        <h6><b>التوصيل الي</b></h6>
+                        <div id="current">
+                            <input id="address" required readonly class="location" value="الخيف،الهدا،الرياض1275،السعوديه">
+                        </div>
+                    </div>
+                    <button id="location-change" class="location-change" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        تغيير
+                    </button>
+                </div>
+                <hr>
+            </div>
+            <div class="col-sm-7 col-12 mt-3 mb-3">
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <div id='map'></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7 col-12">
+                <h6><b>طريقة الدفع</b></h6>
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <a class="defult-link" href="confirm-pay.html">
+                            <div class="position-relative PM">
+                                <div class="pay-method position-relative">
+                                    <img src="images/credit.png">
+                                    <span>البطاقة الأئتمانية</span>
+                                    <img style="width: 40px" src="images/credits.png">
+                                    <input class="radio-pay" name="select-method" type="radio">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <a class="defult-link" href="confirm-pay.html">
+                            <div class="position-relative PM">
+                                <div class="pay-method position-relative">
+                                    <img src="images/apple.png">
+                                    <span>Apple Pay</span>
+                                    <input class="radio-pay" name="select-method" type="radio">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <a class="defult-link" href="confirm-pay.html">
+                            <div class="pay-method position-relative">
+                                <img src="images/stc.png">
+                                <span>STC Pay</span>
+                                <input class="radio-pay" name="select-method" type="radio">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="col-sm-7 col-12">
+                <h6><b>كوبون الخصم</b></h6>
+                <div class="d-flex align-items-center justify-content-between">
+                    <input class="disc-coupon" type="text" placeholder="ادخل كوبون الخصم">
+                    <button class="location-change">تفعيل</button>
+                </div>
+                <hr>
+            </div>
+            <div class="col-sm-7 col-12">
+                <div class="d-flex align-items-center justify-content-between mt-3 mb-4">
+                    <span class="number-label">قيمة المنتجات</span>
+                    <span class="value-label">20,000 ريال سعودي</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mt-3 mb-4">
+                    <span class="number-label">القيمه المضافة (15%)</span>
+                    <span class="value-label">300 ريال سعودي</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mt-3 mb-4">
+                    <span class="number-label">الخصم</span>
+                    <span class="value-label">100 ريال سعودي</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mt-3 mb-4">
+                    <span class="number-label">قيمة التوصيل</span>
+                    <span class="value-label">100 ريال سعودي</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mt-3 mb-4">
+                    <span class="value-label">المبلغ الاجمالي</span>
+                    <span class="value-label">20,000 ريال سعودي</span>
+                </div>
+            </div>
+            <div class="col-sm-7 col-12 d-flex justify-content-center">
+                <a href="confirm-addCart.html" style="width: 250px;" class="btn first-btn defult-btn btnEfectBg"><span>تأكيد</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="foot-sit mt-5 d-md-block d-none">
+    <div class="container">
+        <div class="d-flex justify-content-between flex-wrap">
+            <div class="footer-logo">
+                <a href="index.html">
+                    <img src="images/logo-footer.png">
+                </a>
+            </div>
+            <div class="footer-links">
+                <h5>روابط سريعه</h5>
+                <ul>
+                    <li><a class="defult-link" href="">الرئيسية</a></li>
+                    <li><a class="defult-link" href="">من نحن</a></li>
+                    <li><a class="defult-link" href="">القدرات</a></li>
+                    <li><a class="defult-link" href="">التحصيلي</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h5>روابط سريعه</h5>
+                <ul>
+                    <li><a class="defult-link" href="about.html">حول الموقع</a></li>
+                    <li><a class="defult-link" href="policy.html">سياسة الاستخدام</a></li>
+                    <li><a class="defult-link" href="">الشروط و الاحكام</a></li>
+                    <li><a class="defult-link" href="">حسابي</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h5>تواصل معنا</h5>
+                <ul class="contact-footer">
+                    <li>الرياض- المملكة العربية السعودية</li>
+                    <li>+968214687466</li>
+                    <li>aait@aait.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="bottom-nav d-lg-none d-flex">
+    <div class="bottom-tabs">
+        <a class="defult-link" href="">
+            <div class="bottom-tab act">
+                <i class="fas fa-home"></i>
+                <span>الرئيسية</span>
+            </div>
+        </a>
+        <a class="defult-link" href="">
+            <div class="bottom-tab">
+                <i class="fas fa-shopping-cart"></i>
+                <span>السله الخاصه بك</span>
+            </div>
+        </a>
+        <a class="defult-link" href="">
+            <div class="bottom-tab">
+                <i class="fas fa-comment"></i>
+                <span>المحادثات</span>
+            </div>
+        </a>
+        <a class="defult-link" href="">
+            <div class="bottom-tab">
+                <i class="fas fa-bell"></i>
+                <span>الاشعارات</span>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="bottom-footer d-md-none d-block mt-5">
+    <div class="container">
+        <div class="contact-info">
+            <ul class="contact-footer d-flex justify-content-between flex-wrap">
+                <li>الرياض- المملكة العربية السعودية</li>
+                <li>+968214687466</li>
+                <li>aait@aait.com</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn3NtsJ5lgHSIxUJ4AuqAMm2RXldDDjN8&libraries=places&language=ar"></script>
+<script src="js/location-picker.js"></script>
+<script type="text/javascript">  new WOW().init(); </script>
+<script src="js/main.js"></script>
+
+<script>
+    $(".modal-confirm").on("click" , function (){
+        $(this).parents(".cart-row").fadeOut(500)
+    })
+</script>
+
+<script>
+    $(".pay-method").on("click" , function (){
+        $(".pay-method").removeClass("checked");
+        $(this).addClass("checked");
+    });
+</script>
+<script>
+    var latlng = new google.maps.LatLng(35.137879, -82.836914);
+    var map = new google.maps.Map(document.getElementById('map_canvas'), {
+        zoom: 11,
+        center: new google.maps.LatLng(35.137879, -82.836914),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var myMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(47.651968, 9.478485),
+        draggable: true
+    });
+
+    var geocoder = new google.maps.Geocoder();
+    google.maps.event.addListener(myMarker, 'dragend', function (event) {
+        geocoder.geocode({'latLng': latlng}, function(results, status) {
+            if (status === 'OK') {
+                console.log(results)
+                document.getElementById('current').innerHTML = '<input id="address" class="location">' + results[1].formatted_address +'>';
+            }
+        });
+    });
+
+    google.maps.event.addListener(myMarker, 'dragstart', function(evt) {
+    });
+
+    map.setCenter(myMarker.position);
+    myMarker.setMap(map);
+</script>
+<script type="text/javascript">
+    $("#location-change").on('click',function(){
+        $('#map').locationpicker({
+            inputBinding: {
+                latitudeInput: $("#lat"),
+                longitudeInput: $("#lng"),
+                locationNameInput: $("#address")
+            },
+        });
+        navigator.geolocation.getCurrentPosition(function(position) {
+            $('#map').locationpicker('location', {
+                latitude: position.coords.latitude,
+                longitude: position.coords.longitude,
+                inputBinding: {
+                    latitudeInput: $("#lat"),
+                    longitudeInput: $("#lng"),
+                    locationNameInput: $("#address")
+                },
+            });
+        });
+    })
+
+</script>
+
+
+
+<script>
+    $(document).ready(function () {
+        $('.count').prop('disabled', true);
+        $(document).on('click', '.plus', function () {
+            var count = $(this).closest(".qty").find(".count");
+            $(count).val(parseInt($(count).val()) + 1);
+        });
+        $(document).on('click', '.minus', function () {
+            var count = $(this).closest(".qty").find(".count");
+            $(count).val(parseInt($(count).val()) - 1);
+            if ($(count).val() == 0) {
+                $(count).val(1);
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
